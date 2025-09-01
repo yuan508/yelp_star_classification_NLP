@@ -110,10 +110,10 @@ python train_yelp_cnn.py --model textcnn --embedding word2vec --fine_tune True
 ## 📊 实验结果 (示例)
 
 | 模型            | Embedding  | Fine-tune | 准确率(%) |
-| ------------- | ---------- | --------- |-------|
+|---------------| ---------- | --------- |-------|
 | CNN           | Random     | -         | 87.8  |
-| TextCNN       | Random     | -         | 90.2  |
-| TextCNN + W2V | Pretrained | False     | 90.75 |
+| CNN+MLP       | Random     | -         | 90.2  |
+| TextCNN       | Pretrained | False     | 90.75 |
 | TextCNN + W2V | Pretrained | True      | 91.5  |
 
 ---
